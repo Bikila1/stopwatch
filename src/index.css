@@ -1,0 +1,56 @@
+body{
+  display: flex;
+  font-display: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+.stopwatch{
+  display: flex;
+  font-display: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 10px;
+  background-color: white;
+  padding: 25px;
+
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.5s ease;
+  }
+  .button1{
+    background-color: hsl(110, 100%, 40%);
+  }
+  .button1:hover{
+      background-color: hsl(110, 100%, 35%)
+    }
+  .button2{
+        background-color: hsl(8, 90%, 50%);
+      }
+  .button2:hover{
+        background-color: hsl(8, 90%, 45%);
+
+  }
+  .button3{
+        background-color: hsl(200, 90%, 50%);
+      }
+  .button3:hover{
+        background-color: hsl(200, 90%, 45%);
+
+  }
